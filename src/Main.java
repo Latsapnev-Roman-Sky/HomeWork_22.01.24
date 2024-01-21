@@ -10,5 +10,8 @@ public class Main {
         System.out.println(secondBook);
         secondBook.setPublicationYear(1900);
         System.out.println(secondBook);
+        System.out.println(firstBook.equals(secondBook));
+
+
     }
 }
